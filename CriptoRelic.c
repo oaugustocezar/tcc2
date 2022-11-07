@@ -107,6 +107,7 @@ int main()
     int errnum, ret_Val;
     struct timeval utime;
     in_len = 0;
+
      if ((in_len = read(conexao, crypto, MAX_MSG)) < 0)
     {
         perror("Erro ao receber dados do cliente: ");
